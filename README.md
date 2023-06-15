@@ -3,8 +3,8 @@
 		
 <body>
 
-<h1>Machine Learning Challenge: Spaceship Titanic</h1>
-I developed this notebook using Python and its libraries as a part of a Kaggle challenge. The objective is to predict whether a passenger was transported to an alternate dimension during a collision with a spacetime anomaly. The data is available <a href="https://www.kaggle.com/competitions/spaceship-titanic">here</a> (also in this repository).<br>
+<h1>Machine Learning: Spaceship Titanic</h1>
+I developed this notebook using Python and its libraries as a part of a Kaggle competition. The objective is to predict whether a passenger was transported to an alternate dimension during a collision with a spacetime anomaly. The data is available <a href="https://www.kaggle.com/competitions/spaceship-titanic">here</a> (also in this repository).<br>
 The dataset covers information from almost 13,000 passengers on board.
 
 <h2>Methodology</h2>
@@ -23,7 +23,7 @@ Missing values in the dataset were addressed using own data. Mean, median, and m
 <h3>Data Preprocessing</h3>
 The following preprocessing steps were performed on the dataset before training the models:
 <ul>
-	<li>Continuous features were preprocessed using a log-transform to handle skewness in their distributions.</li>
+	<li>Continuous features were preprocessed using a log transform to handle skewness in their distributions.</li>
 	<li>Numerical features were standardized using <code>StandardScaler</code>, and categorical features were encoded using <code>OneHotEncoder</code>. This was achieved using <code>Pipeline</code> and <code>ColumnTransformer</code> to ensure consistent and efficient preprocessing.</li>
 </ul>
 
